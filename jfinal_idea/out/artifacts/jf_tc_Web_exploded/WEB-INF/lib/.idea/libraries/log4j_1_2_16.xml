@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="log4j-1.2.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jf_tc/web/WEB-INF/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jf_tc/web/WEB-INF/lib/fastjson-1.1.37.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/jf_tc/src" />
+    </SOURCES>
+  </library>
+</component>
