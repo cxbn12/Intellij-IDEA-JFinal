@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.apache.taglibs.standard.glassfish-1.2.0.v201112081803">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jf_tc/web/WEB-INF/lib/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

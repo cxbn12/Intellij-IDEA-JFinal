@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jf_tc:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jf_tc_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jf_tc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="jf_tc/web/Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mchange-commons-java-0.2.10" />
+          <element id="library" level="project" name="jfinal-2.2-bin-with-src" />
+          <element id="library" level="project" name="c3p0-0.9.5.1" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.0.v201105211821" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.20-bin" />
+          <element id="library" level="project" name="org.apache.taglibs.standard.glassfish-1.2.0.v201112081803" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
