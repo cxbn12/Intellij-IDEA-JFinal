@@ -45,6 +45,7 @@ public class BlogController extends Controller {
 
         System.out.println("****************nxs_lv Begin****************");
 
+
         String name=getPara(1).toString();
         System.out.print(name);
         try {
