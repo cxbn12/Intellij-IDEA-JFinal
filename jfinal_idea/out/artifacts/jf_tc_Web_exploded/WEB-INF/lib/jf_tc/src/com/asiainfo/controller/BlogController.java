@@ -29,7 +29,8 @@ public class BlogController extends Controller {
         render("form.jsp");
     }
     public void blogadd(){
-        Blog blog=getModel(Blog.class,"blog");
+        //Blog blog=getModel(Blog.class,"blog");
+        Blog blog= (Blog) getModel(Blog.class,"blog");
         blog.save();
         index();
     }
@@ -44,6 +45,7 @@ public class BlogController extends Controller {
         // renderJson(jsonStr+"nixinsheng");
 
         System.out.println("****************nxs_lv Begin****************");
+
 
         String name=getPara(1).toString();
         System.out.print(name);
@@ -68,8 +70,11 @@ public class BlogController extends Controller {
      */
     public void Upload() {
         //拼接最终反馈json用
+        //HashMap<String,Object> rep = new HashMap<String, Object>();
+
         HashMap<String, Object> rep = new HashMap<String, Object>();
         HashMap<String, Object> repdetail = new HashMap<String, Object>();
+
         String ResultCode = "";//返回结果编码
         String ResultDesc = "";//返回结果描述
         //************要是UploadFile必须放在最前面 就要做临时文件夹 或者 文件拷贝工作（文件拷贝还要考虑删除临时的文件夹）

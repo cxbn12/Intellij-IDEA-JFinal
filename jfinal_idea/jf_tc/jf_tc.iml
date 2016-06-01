@@ -24,7 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/web/WEB-INF/lib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web/WEB-INF/classes/com/asiainfo" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="jdk1.8.0" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jfinal-2.2-bin-with-src" level="project" />
     <orderEntry type="library" name="c3p0-0.9.5.1" level="project" />
