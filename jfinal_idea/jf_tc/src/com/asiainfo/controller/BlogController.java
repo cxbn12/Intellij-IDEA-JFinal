@@ -45,6 +45,12 @@ public class BlogController extends Controller {
         // renderJson(jsonStr+"nixinsheng");
 
         System.out.println("****************nxs_lv Begin****************");
+        /**
+         * @Desc nxs_lv
+         * Request http://localhost:8080/Blog/nxs_lv/nixinsheng-123   DemoConfig中有配置
+         *
+         * Created by nixinsheng on 16/6/2 | 上午12:41.
+         */
 
 
         String name=getPara(1).toString();
@@ -86,7 +92,7 @@ public class BlogController extends Controller {
 
         //String server_temp ="C:/Users/Administrator/Desktop/NXW/home/as_dev/pics/temp";
         //UploadFile file = getFile("filename", "C:/Users/Administrator/Desktop/NXW/home/as_dev/pics/temp"); //测试
-        //UploadFile file = getFile("filename", "/home/timcat/pics/temp");  //服务器生产库
+        //UploadFile file = getFile("filename", "/home/tomcat/pics/temp");  //服务器生产库
         UploadFile file = getFile("filename", "/home/as_dev/pics/temp");  //服务器测试库
 
         String PATHNAME = getPara("pathname");

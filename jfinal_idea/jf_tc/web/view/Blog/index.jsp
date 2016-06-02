@@ -11,6 +11,7 @@
     <title>Blog</title>
 </head>
 <body>
-    <h1>Blog\index.jsp<h1/>
+    <h1>提交成功。</h1>
+    <h5> Back To Blog\index.jsp<h5/>
 </body>
 </html>
